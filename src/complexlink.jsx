@@ -2,7 +2,7 @@ import React from 'react';
 
 // TODO: Add a link component that can be used in the CMS
 
-const ComplexLink = ({ href, children, className, ...props }) => {
+const ComplexLink = (props) => {
     return (
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 2fr', gap: '8px', alignItems: 'center' }}>
             <label style={{ gridColumn: '1 / 2' }}>
