@@ -3,7 +3,7 @@
 import { jsx } from '@emotion/core';
 import { Builder } from '@builder.io/react';
 import ReactQuill from 'react-quill';
-import ComplexLink from './cms-link-component';
+import ComplexLink from './complexlink';
 
 
 function RichTextEditor(props) {
